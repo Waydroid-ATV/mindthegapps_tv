@@ -1,4 +1,4 @@
-For files in [arm/arm64/common]/proprietary:
+For files in [arm/arm64/common/x86_64]/proprietary:
     These are closed source/propietary/prebuilt files.
     I do not own them, these are just here to make
     your life easier when compiling the package.

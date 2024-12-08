@@ -38,7 +38,7 @@ fi
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$ANDROID_ROOT" true
 
 # Copyright headers
-write_headers "arm arm64"
+write_headers "arm arm64 x86_64"
 
 # Common gapps
 write_makefiles "$MY_DIR"/proprietary-files-common.txt
@@ -57,7 +57,7 @@ sed -i 's/TARGET_DEVICE/TARGET_ARCH/g' "$ANDROIDMK"
 # We are done with common
 write_footers
 
-for DEVICE in arm arm64; do
+for DEVICE in arm arm64 x86_64; do
 
 # Reinitialize the helper for target gapps
 setup_vendor "$DEVICE" "$VENDOR" "$ANDROID_ROOT"
