@@ -43,7 +43,7 @@
     <string name="config_dreamsDefaultComponent">com.google.android.backdrop/.Backdrop</string>
 
     <!-- Colon separated list of package names that should be granted Notification Listener access -->
-    <string name="config_defaultListenerAccessPackages" translatable="false">com.google.android.tvrecommendations</string>
+    <string name="config_defaultListenerAccessPackages" translatable="false">com.google.android.tvrecommendations:org.lineageos.tv.launcher</string>
 
     <!-- The component name, flattened to a string, for the default autofill service
          to be enabled for a user. This service must be trusted, as it can be activated
