@@ -92,16 +92,16 @@ function zipit() {
     fi
 }
 
-function getmd5() {
-    if [ -x $(which md5sum) ]; then
-        echo "md5sum is installed, getting md5..." >> $GLOG
-        echo "Getting md5sum..."
-        GMD5=$(md5sum $OUT/$BUILDZIP)
-        echo -e "$GMD5" > $OUT/$BUILDZIP.md5sum
-        echo "md5 exported at $OUT/$BUILDZIP.md5sum"
+function getsha256() {
+    if [ -x $(which sha256sum) ]; then
+        echo "sha256sum is installed, getting sha256..." >> $GLOG
+        echo "Getting sha256sum..."
+        GSHA256=$(sha256sum $OUT/$BUILDZIP)
+        echo -e "$GSHA256" > $OUT/$BUILDZIP.sha256sum
+        echo "sha256 exported at $OUT/$BUILDZIP.sha256sum"
         return 0
     else
-        echo "md5sum is not installed, aborting" >> $GLOG
+        echo "sha256sum is not installed, aborting" >> $GLOG
         return 1
     fi
 }
@@ -116,7 +116,7 @@ else
     echo "No realpath found!" >> $GLOG
 fi
 
-for func in create zipit getmd5 clean; do
+for func in create zipit getsha256 clean; do
     $func
     ret=$?
     if [ "$ret" == 0 ]; then
@@ -127,5 +127,5 @@ for func in create zipit getmd5 clean; do
 done
 
 echo "Done!" >> $GLOG
-echo "Build completed: $GMD5"
+echo "Build completed: $GSHA256"
 exit 0
