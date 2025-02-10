@@ -1,2 +1,2 @@
-apps/armeabi-v7a/TVLauncher.apk:product/priv-app/TVLauncher/TVLauncher.apk;PRESIGNED;OVERRIDES=TVLauncherNoGMS
-apps/armeabi-v7a/TVRecommendations.apk:product/priv-app/TVRecommendations/TVRecommendations.apk;PRESIGNED;OVERRIDES=TVRecommendationsNoGMS
+apps/armeabi-v7a/TVLauncher.apk:product/priv-app/TVLauncher/TVLauncher.apk;PRESIGNED;OVERRIDES=TVLauncherNoGMS,Catapult
+apps/armeabi-v7a/TVRecommendations.apk:product/priv-app/TVRecommendations/TVRecommendations.apk;PRESIGNED;OVERRIDES=TVRecommendationsNoGMS,Catapult

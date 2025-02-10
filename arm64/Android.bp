@@ -139,7 +139,7 @@ android_app_import {
 	apk: "proprietary/product/priv-app/TVLauncher/TVLauncher.apk",
 	preprocessed: true,
 	presigned: true,
-	overrides: ["TVLauncherNoGMS"],
+	overrides: ["TVLauncherNoGMS", "Catapult"],
 	dex_preopt: {
 		enabled: false,
 	},
@@ -153,7 +153,7 @@ android_app_import {
 	apk: "proprietary/product/priv-app/TVRecommendations/TVRecommendations.apk",
 	preprocessed: true,
 	presigned: true,
-	overrides: ["TVRecommendationsNoGMS"],
+	overrides: ["TVRecommendationsNoGMS", "Catapult"],
 	dex_preopt: {
 		enabled: false,
 	},
