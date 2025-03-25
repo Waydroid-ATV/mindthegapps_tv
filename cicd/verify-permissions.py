@@ -103,8 +103,7 @@ for partition in partitions:
     # Loop over all the APKs in the partition we want
     for apk in glob(GLOB_APK_STR.format(partition)):
         # Run 'aapt d permissions' on APK
-        aapt_output = subprocess.check_output(AAPT_CMD + [apk],
-                                              stderr=subprocess.STDOUT).decode(encoding='UTF-8')
+        aapt_output = subprocess.check_output(AAPT_CMD + [apk]).decode(encoding='UTF-8')
         lines = aapt_output.splitlines()
         # Extract package name from the output
         # Output looks like:
