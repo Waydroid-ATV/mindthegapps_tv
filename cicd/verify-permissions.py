@@ -94,7 +94,7 @@ for partition in partitions:
 
 # Definitions for parsing APKs
 GLOB_APK_STR = '../*/proprietary/{}/priv-app/*/*.apk'
-AAPT_CMD = ['aapt', 'd', 'permissions']
+AAPT_CMD = ['aapt2', 'd', 'permissions']
 
 # Extract requested privileged permissions from all priv-app APKs
 for partition in partitions:
