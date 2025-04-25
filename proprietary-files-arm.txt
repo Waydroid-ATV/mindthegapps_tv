@@ -8,6 +8,9 @@ apps/armeabi-v7a/GoogleOneTimeInitializer.apk:product/priv-app/GoogleOneTimeInit
 apps/armeabi-v7a/PrebuiltGmsCorePano.apk:product/priv-app/PrebuiltGmsCorePano/PrebuiltGmsCorePano.apk;PRESIGNED
 apps/armeabi-v7a/Tubesky.apk:product/priv-app/Tubesky/Tubesky.apk;PRESIGNED
 
+apps/armeabi-v7a/Katniss.apk:product/priv-app/Katniss/Katniss.apk;PRESIGNED
+apps/armeabi-v7a/SetupWraithPrebuilt.apk:product/priv-app/SetupWraithPrebuilt/SetupWraithPrebuilt.apk;PRESIGNED
+
 # system
 apps/armeabi-v7a/GoogleExtShared.apk:system/app/GoogleExtShared/GoogleExtShared.apk;PRESIGNED
 

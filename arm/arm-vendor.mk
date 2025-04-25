@@ -13,7 +13,9 @@ PRODUCT_PACKAGES += \
     talkback \
     AndroidMediaShell \
     GoogleOneTimeInitializer \
+    Katniss \
     PrebuiltGmsCorePano \
+    SetupWraithPrebuilt \
     Tubesky \
     GoogleFeedback \
     GoogleServicesFramework
