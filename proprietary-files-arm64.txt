@@ -8,9 +8,6 @@ apps/arm64-v8a/GoogleOneTimeInitializer.apk:product/priv-app/GoogleOneTimeInitia
 apps/arm64-v8a/PrebuiltGmsCorePano.apk:product/priv-app/PrebuiltGmsCorePano/PrebuiltGmsCorePano.apk;PRESIGNED
 apps/arm64-v8a/Tubesky.apk:product/priv-app/Tubesky/Tubesky.apk;PRESIGNED
 
-apps/arm64-v8a/Katniss.apk:product/priv-app/Katniss/Katniss.apk;PRESIGNED
-apps/arm64-v8a/SetupWraithPrebuilt.apk:product/priv-app/SetupWraithPrebuilt/SetupWraithPrebuilt.apk;PRESIGNED
-
 # system
 apps/arm64-v8a/GoogleExtShared.apk:system/app/GoogleExtShared/GoogleExtShared.apk;PRESIGNED
 

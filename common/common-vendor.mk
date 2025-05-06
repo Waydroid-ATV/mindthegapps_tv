@@ -21,7 +21,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AtvRemoteService \
     Backdrop \
-    DfuService
+    DfuService \
+    Katniss \
+    SetupWraithPrebuilt
 
 PRODUCT_SOONG_NAMESPACES += vendor/gapps_tv/overlay
 PRODUCT_PACKAGES += ATVOverlay
