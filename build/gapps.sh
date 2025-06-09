@@ -96,8 +96,10 @@ function getsha256() {
     if [ -x $(which sha256sum) ]; then
         echo "sha256sum is installed, getting sha256..." >> $GLOG
         echo "Getting sha256sum..."
-        GSHA256=$(sha256sum $OUT/$BUILDZIP)
-        echo -e "$GSHA256" > $OUT/$BUILDZIP.sha256sum
+        pushd $OUT > /dev/null
+        GSHA256=$(sha256sum $BUILDZIP)
+        echo -e "$GSHA256" > $BUILDZIP.sha256sum
+        popd > /dev/null
         echo "sha256 exported at $OUT/$BUILDZIP.sha256sum"
         return 0
     else
