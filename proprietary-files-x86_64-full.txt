@@ -1,0 +1,2 @@
+apps/x86_64/TVLauncher.apk:product/priv-app/TVLauncher/TVLauncher.apk;PRESIGNED;OVERRIDES=TVLauncherNoGMS
+apps/x86_64/TVRecommendations.apk:product/priv-app/TVRecommendations/TVRecommendations.apk;PRESIGNED;OVERRIDES=TVRecommendationsNoGMS

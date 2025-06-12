@@ -58,16 +58,3 @@ android_app_import {
 	product_specific: true,
 }
 
-android_app_import {
-	name: "SetupWraithPrebuilt",
-	owner: "gapps_tv",
-	apk: "proprietary/product/priv-app/SetupWraithPrebuilt/SetupWraithPrebuilt.apk",
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-

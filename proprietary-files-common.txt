@@ -15,7 +15,6 @@ apps/armeabi-v7a/AtvRemoteService.apk:product/priv-app/AtvRemoteService/AtvRemot
 apps/armeabi-v7a/Backdrop.apk:product/priv-app/Backdrop/Backdrop.apk;PRESIGNED
 apps/armeabi-v7a/DfuService.apk:product/priv-app/DfuService/DfuService.apk
 apps/armeabi-v7a/Katniss.apk:product/priv-app/Katniss/Katniss.apk;PRESIGNED
-apps/armeabi-v7a/SetupWraithPrebuilt.apk:product/priv-app/SetupWraithPrebuilt/SetupWraithPrebuilt.apk;PRESIGNED
 
 # system
 etc/permissions/privapp-permissions-google-system.xml:system/etc/permissions/privapp-permissions-google-system.xml

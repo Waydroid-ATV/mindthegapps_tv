@@ -1,2 +1,14 @@
--product/priv-app/AndroidMediaShell/AndroidMediaShell.apk;PRESIGNED
--product/priv-app/PrebuiltGmsCorePano/PrebuiltGmsCorePano.apk;PRESIGNED
+# product
+apps/x86_64/GoogleCalendarSyncAdapter.apk:product/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk;PRESIGNED
+
+apps/x86_64/AndroidMediaShell.apk:product/priv-app/AndroidMediaShell/AndroidMediaShell.apk;PRESIGNED
+apps/x86_64/GoogleOneTimeInitializer.apk:product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;PRESIGNED
+apps/x86_64/PrebuiltGmsCorePano.apk:product/priv-app/PrebuiltGmsCorePano/PrebuiltGmsCorePano.apk;PRESIGNED
+apps/x86_64/Tubesky.apk:product/priv-app/Tubesky/Tubesky.apk;PRESIGNED
+
+# system
+apps/x86_64/GoogleExtShared.apk:system/app/GoogleExtShared/GoogleExtShared.apk;PRESIGNED
+
+# system_ext
+apps/x86_64/GoogleFeedback.apk:system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk;PRESIGNED
+apps/x86_64/GoogleServicesFramework.apk:system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk;PRESIGNED
