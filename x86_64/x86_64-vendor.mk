@@ -9,6 +9,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     GoogleExtShared \
     GoogleCalendarSyncAdapter \
+    GoogleTTS \
+    talkback \
     AndroidMediaShell \
     GoogleOneTimeInitializer \
     PrebuiltGmsCorePano \

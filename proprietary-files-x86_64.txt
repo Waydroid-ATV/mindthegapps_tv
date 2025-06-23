@@ -1,5 +1,7 @@
 # product
 apps/x86_64/GoogleCalendarSyncAdapter.apk:product/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk;PRESIGNED
+apps/x86_64/GoogleTTS.apk:product/app/GoogleTTS/GoogleTTS.apk;PRESIGNED
+apps/x86_64/talkback.apk:product/app/talkback/talkback.apk;PRESIGNED
 
 apps/x86_64/AndroidMediaShell.apk:product/priv-app/AndroidMediaShell/AndroidMediaShell.apk;PRESIGNED
 apps/x86_64/GoogleOneTimeInitializer.apk:product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;PRESIGNED
