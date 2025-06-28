@@ -147,7 +147,7 @@ class prebuilt_etc(SoongPrebuilt):
         props = {
             "name": self.name,
             "src": self.src,
-            "relative_install_path": self.install_path.split("/", maxsplit=3)[-2],
+            "relative_install_path": "/".join(self.install_path.split("/")[2:-1]),
             "filename_from_src": True,
         }
 
