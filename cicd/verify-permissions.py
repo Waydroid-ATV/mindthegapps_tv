@@ -37,7 +37,7 @@ os.chdir(sys.path[0])
 
 # Definitions for privileged permissions
 ANDROID_MANIFEST_XML = \
-    'https://raw.githubusercontent.com/LineageOS/android_frameworks_base/lineage-19.1/core/res/AndroidManifest.xml'
+    'https://raw.githubusercontent.com/LineageOS/android_frameworks_base/lineage-23.0/core/res/AndroidManifest.xml'
 ANDROID_XML_NS = '{http://schemas.android.com/apk/res/android}'
 privileged_permissions = set()
 privileged_permission_mask = {'privileged', 'signature'}
