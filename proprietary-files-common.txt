@@ -1,4 +1,3 @@
-# product
 etc/default-permissions/default-atv-permissions.xml:product/etc/default-permissions/default-atv-permissions.xml
 
 product/etc/init/gapps.rc|2b4c576d93aa6317c3a079dee292678e3ba114f1
@@ -17,8 +16,6 @@ apps/armeabi-v7a/DfuService.apk:product/priv-app/DfuService/DfuService.apk
 apps/armeabi-v7a/Katniss.apk:product/priv-app/Katniss/Katniss.apk;PRESIGNED
 apps/armeabi-v7a/SetupWraithPrebuilt.apk:product/priv-app/SetupWraithPrebuilt/SetupWraithPrebuilt.apk;PRESIGNED
 
-# system
 etc/permissions/privapp-permissions-google-system.xml:system/etc/permissions/privapp-permissions-google-system.xml
 
-# system_ext
 etc/permissions/privapp-permissions-google-system_ext.xml:system_ext/etc/permissions/privapp-permissions-google-system_ext.xml
