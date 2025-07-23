@@ -114,6 +114,8 @@ android_app_import {
 	name: "Tubesky",
 	owner: "gapps_tv",
 	apk: "proprietary/product/priv-app/Tubesky/Tubesky.apk",
+	preprocessed: true,
+	skip_preprocessed_apk_checks: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
