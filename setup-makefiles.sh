@@ -81,3 +81,6 @@ sed -i 's/TARGET_DEVICE/TARGET_ARCH/g' "$ANDROIDMK"
 write_footers
 
 done
+
+# We have no Android.mk modules, so just remove empty files
+rm "$MY_DIR"/*/Android.mk
