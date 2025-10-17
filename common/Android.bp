@@ -37,7 +37,9 @@ android_app_import {
 	name: "DfuService",
 	owner: "gapps_tv",
 	apk: "proprietary/product/priv-app/DfuService/DfuService.apk",
-	certificate: "platform",
+	preprocessed: true,
+	presigned: true,
+	skip_preprocessed_apk_checks: true,
 	dex_preopt: {
 		enabled: false,
 	},
