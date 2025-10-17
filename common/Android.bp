@@ -39,6 +39,7 @@ android_app_import {
     },
     privileged: true,
     product_specific: true,
+    skip_preprocessed_apk_checks: true,
 }
 
 android_app_import {
