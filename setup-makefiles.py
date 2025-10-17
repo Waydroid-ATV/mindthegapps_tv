@@ -99,6 +99,7 @@ class android_app_import(SoongPrebuilt):
                 "enabled": False,
             },
             "privileged": True,
+            "skip_preprocessed_apk_checks": True,
         }
 
         _, apk_dst, _ = self.install_path.split("/", maxsplit=2)
@@ -111,6 +112,9 @@ class android_app_import(SoongPrebuilt):
 
         if not self._has_flag("PRESIGNED"):
             del props["presigned"]
+
+        if not self._has_flag("SKIPAPKCHECKS"):
+            del props["skip_preprocessed_apk_checks"]
 
         return self._to_blueprint(props)
 

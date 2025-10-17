@@ -12,7 +12,7 @@ etc/sysconfig/google_atv.xml:product/etc/sysconfig/google_atv.xml
 
 apps/armeabi-v7a/AtvRemoteService.apk:product/priv-app/AtvRemoteService/AtvRemoteService.apk;PRESIGNED
 apps/armeabi-v7a/Backdrop.apk:product/priv-app/Backdrop/Backdrop.apk;PRESIGNED
-apps/armeabi-v7a/DfuService.apk:product/priv-app/DfuService/DfuService.apk
+apps/armeabi-v7a/DfuService.apk:product/priv-app/DfuService/DfuService.apk;PRESIGNED;SKIPAPKCHECKS
 apps/armeabi-v7a/Katniss.apk:product/priv-app/Katniss/Katniss.apk;PRESIGNED
 apps/armeabi-v7a/SetupWraithPrebuilt.apk:product/priv-app/SetupWraithPrebuilt/SetupWraithPrebuilt.apk;PRESIGNED
 
