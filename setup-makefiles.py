@@ -278,7 +278,7 @@ def generate(targets: list[GappsTarget]) -> None:
 
             if packages_full:
                 f.write("\n")
-                f.write("ifeq ($(TARGET_IS_GROUPER),)\n")
+                f.write("ifneq ($(GMS_VARIANT),minimal)\n")
                 write_list("PRODUCT_PACKAGES", [x.name for x in packages_full])
                 f.write("endif\n")
 

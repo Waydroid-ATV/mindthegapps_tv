@@ -16,7 +16,7 @@ PRODUCT_PACKAGES += \
     Tubesky \
     talkback
 
-ifeq ($(TARGET_IS_GROUPER),)
+ifneq ($(GMS_VARIANT),minimal)
 PRODUCT_PACKAGES += \
     TVLauncher \
     TVRecommendations
