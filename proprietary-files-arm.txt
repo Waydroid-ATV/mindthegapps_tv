@@ -2,7 +2,6 @@ apps/armeabi-v7a/GoogleCalendarSyncAdapter.apk:product/app/GoogleCalendarSyncAda
 apps/armeabi-v7a/GoogleTTS.apk:product/app/GoogleTTS/GoogleTTS.apk;PRESIGNED
 apps/armeabi-v7a/talkback.apk:product/app/talkback/talkback.apk;PRESIGNED
 
-apps/armeabi-v7a/AndroidMediaShell.apk:product/priv-app/AndroidMediaShell/AndroidMediaShell.apk;PRESIGNED
 apps/armeabi-v7a/GoogleOneTimeInitializer.apk:product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;PRESIGNED
 apps/armeabi-v7a/PrebuiltGmsCorePano.apk:product/priv-app/PrebuiltGmsCorePano/PrebuiltGmsCorePano.apk;PRESIGNED
 apps/armeabi-v7a/Tubesky.apk:product/priv-app/Tubesky/Tubesky.apk;PRESIGNED

@@ -9,7 +9,6 @@ PRODUCT_PACKAGES += \
     Backdrop \
     DfuService \
     Katniss \
-    SetupWraithPrebuilt \
     default-atv-permissions.xml \
     gapps.rc \
     google-hiddenapi-package-whitelist.xml \

@@ -2,7 +2,6 @@ apps/arm64-v8a/GoogleCalendarSyncAdapter.apk:product/app/GoogleCalendarSyncAdapt
 apps/arm64-v8a/GoogleTTS.apk:product/app/GoogleTTS/GoogleTTS.apk;PRESIGNED
 apps/arm64-v8a/talkback.apk:product/app/talkback/talkback.apk;PRESIGNED
 
-apps/arm64-v8a/AndroidMediaShell.apk:product/priv-app/AndroidMediaShell/AndroidMediaShell.apk;PRESIGNED
 apps/arm64-v8a/GoogleOneTimeInitializer.apk:product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;PRESIGNED
 apps/arm64-v8a/PrebuiltGmsCorePano.apk:product/priv-app/PrebuiltGmsCorePano/PrebuiltGmsCorePano.apk;PRESIGNED
 apps/arm64-v8a/Tubesky.apk:product/priv-app/Tubesky/Tubesky.apk;PRESIGNED

@@ -1,2 +1,0 @@
-apps/arm64-v8a/TVLauncher.apk:product/priv-app/TVLauncher/TVLauncher.apk;PRESIGNED;OVERRIDES=TVLauncherNoGMS,Catapult
-apps/arm64-v8a/TVRecommendations.apk:product/priv-app/TVRecommendations/TVRecommendations.apk;PRESIGNED;OVERRIDES=TVRecommendationsNoGMS,Catapult
