@@ -18,7 +18,6 @@ PRODUCT_PACKAGES += \
 
 ifneq ($(GMS_VARIANT),minimal)
 PRODUCT_PACKAGES += \
-    TVLauncher \
     TVRecommendations
 endif
 
