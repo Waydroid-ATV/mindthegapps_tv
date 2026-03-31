@@ -1,0 +1,11 @@
+apps/x86/GoogleCalendarSyncAdapter.apk:product/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk;PRESIGNED
+apps/x86/GoogleTTS.apk:product/app/GoogleTTS/GoogleTTS.apk;PRESIGNED
+apps/x86/talkback.apk:product/app/talkback/talkback.apk;PRESIGNED
+
+apps/x86/GoogleOneTimeInitializer.apk:product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;PRESIGNED
+apps/x86/PrebuiltGmsCorePano.apk:product/priv-app/PrebuiltGmsCorePano/PrebuiltGmsCorePano.apk;PRESIGNED
+apps/x86/Tubesky.apk:product/priv-app/Tubesky/Tubesky.apk;PRESIGNED
+
+apps/x86/GoogleExtShared.apk:system/app/GoogleExtShared/GoogleExtShared.apk;PRESIGNED
+
+apps/x86/GoogleServicesFramework.apk:system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk;PRESIGNED

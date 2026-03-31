@@ -5,7 +5,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 PRODUCT_PACKAGES += \
-    AndroidMediaShell \
     GoogleCalendarSyncAdapter \
     GoogleExtShared \
     GoogleFeedback \
@@ -15,10 +14,5 @@ PRODUCT_PACKAGES += \
     PrebuiltGmsCorePano \
     Tubesky \
     talkback
-
-ifneq ($(GMS_VARIANT),minimal)
-PRODUCT_PACKAGES += \
-    TVRecommendations
-endif
 
 $(call inherit-product, vendor/gapps_tv/common/common-vendor.mk)

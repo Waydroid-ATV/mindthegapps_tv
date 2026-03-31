@@ -5,7 +5,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 PRODUCT_PACKAGES += \
-    AtvRemoteService \
     Backdrop \
     DfuService \
     Katniss \

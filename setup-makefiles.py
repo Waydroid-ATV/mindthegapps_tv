@@ -323,5 +323,14 @@ if __name__ == "__main__":
                     "vendor/gapps_tv/common/common-vendor.mk",
                 ],
             ),
+            GappsTarget(
+                name="x86",
+                soong_imports=["vendor/gapps_tv/common"],
+                additional_namespaces=[],
+                additional_packages=[],
+                additional_makefiles_to_inherit=[
+                    "vendor/gapps_tv/common/common-vendor.mk",
+                ],
+            ),
         ]
     )
