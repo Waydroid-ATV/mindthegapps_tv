@@ -5,15 +5,20 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 PRODUCT_PACKAGES += \
-    Backdrop \
     DfuService \
     Katniss \
+    LatinIMEGoogleTvPrebuilt \
+    SetupWraithPrebuilt \
+    TVDreamXPrebuilt \
+    TVLauncherXPrebuilt \
+    default-atv-amati-permissions.xml \
     default-atv-permissions.xml \
     gapps.rc \
     google-hiddenapi-package-whitelist.xml \
     google-staged-installer-whitelist.xml \
     google.xml \
     google_atv.xml \
+    privapp-permissions-atv-amati-product.xml \
     privapp-permissions-atv-product.xml \
     privapp-permissions-google-product.xml \
     privapp-permissions-google-system.xml \

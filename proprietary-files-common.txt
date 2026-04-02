@@ -1,16 +1,22 @@
 etc/default-permissions/default-atv-permissions.xml:product/etc/default-permissions/default-atv-permissions.xml
+etc/default-permissions/default-atv-amati-permissions.xml:product/etc/default-permissions/default-atv-amati-permissions.xml
 
 product/etc/init/gapps.rc|2b4c576d93aa6317c3a079dee292678e3ba114f1
 
 etc/permissions/privapp-permissions-google-product.xml:product/etc/permissions/privapp-permissions-google-product.xml
 etc/permissions/privapp-permissions-atv-product.xml:product/etc/permissions/privapp-permissions-atv-product.xml
+etc/permissions/privapp-permissions-atv-amati-product.xml:product/etc/permissions/privapp-permissions-atv-amati-product.xml
 etc/permissions/split-permissions-google.xml:product/etc/permissions/split-permissions-google.xml
 etc/sysconfig/google-hiddenapi-package-whitelist.xml:product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
 etc/sysconfig/google-staged-installer-whitelist.xml:product/etc/sysconfig/google-staged-installer-whitelist.xml
 etc/sysconfig/google.xml:product/etc/sysconfig/google.xml
 etc/sysconfig/google_atv.xml:product/etc/sysconfig/google_atv.xml
 
-apps/armeabi-v7a/Backdrop.apk:product/priv-app/Backdrop/Backdrop.apk;PRESIGNED
+apps/armeabi-v7a/LatinIMEGoogleTvPrebuilt.apk:product/app/LatinIMEGoogleTvPrebuilt/LatinIMEGoogleTvPrebuilt.apk;PRESIGNED
+
+apps/armeabi-v7a/TVDreamXPrebuilt.apk:product/priv-app/TVDreamXPrebuilt/TVDreamXPrebuilt.apk;PRESIGNED
+apps/armeabi-v7a/TVLauncherXPrebuilt.apk:product/priv-app/TVLauncherXPrebuilt/TVLauncherXPrebuilt.apk;PRESIGNED
+apps/armeabi-v7a/SetupWraithPrebuilt.apk:product/priv-app/SetupWraithPrebuilt/SetupWraithPrebuilt.apk;PRESIGNED
 apps/armeabi-v7a/DfuService.apk:product/priv-app/DfuService/DfuService.apk;PRESIGNED;SKIPAPKCHECKS
 apps/armeabi-v7a/Katniss.apk:product/priv-app/Katniss/Katniss.apk;PRESIGNED
 

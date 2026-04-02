@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2020 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<permissions>
+    <privapp-permissions package="com.google.android.apps.tv.launcherx">
+        <permission name="android.permission.ACCESS_NOTIFICATIONS"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.CHANGE_HDMI_CEC_ACTIVE_SOURCE"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.HDMI_CEC"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.NOTIFY_TV_INPUTS"/>
+        <permission name="android.permission.OBSERVE_APP_USAGE"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_CONTENT_RATING_SYSTEMS"/>
+        <permission name="android.permission.READ_DREAM_STATE"/>
+        <permission name="android.permission.READ_LOGS"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.RECEIVE_MEDIA_RESOURCE_USAGE"/>
+        <permission name="android.permission.RECORD_AUDIO"/>
+        <permission name="android.permission.SET_UNRESTRICTED_KEEP_CLEAR_AREAS"/>
+        <permission name="android.permission.WRITE_DREAM_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+        <permission name="com.android.permission.INSTALL_EXISTING_PACKAGES"/>
+        <permission name="com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA"/>
+        <permission name="com.android.providers.tv.permission.ACCESS_WATCHED_PROGRAMS"/>
+        <permission name="com.google.android.apps.mediashell.permission.MULTIZONE_INFO"/>
+        <deny-permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="com.google.android.apps.tv.permission.READ_ALWAYS_ON_SETTINGS"/>
+        <permission name="com.google.android.apps.tv.permission.READ_ALWAYS_ON_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.apps.tv.dreamx">
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.READ_DREAM_STATE"/>
+        <permission name="android.permission.SET_UNRESTRICTED_KEEP_CLEAR_AREAS"/>
+        <permission name="android.permission.USER_ACTIVITY"/>
+        <permission name="android.permission.WRITE_DREAM_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.google.android.apps.mediashell.permission.CAST_AUTH"/>
+        <permission name="com.google.android.apps.tv.permission.READ_ALWAYS_ON_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.backdrop">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.gms.supervision">
+        <permission name="android.permission.ACCESS_NETWORK_CONDITIONS"/>
+        <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.GET_APP_OPS_STATS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
+        <permission name="android.permission.MANAGE_FACTORY_RESET_PROTECTION" />
+        <permission name="android.permission.MANAGE_TIME_AND_ZONE_DETECTION"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONS"/>
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_DREAM_STATE"/>
+        <permission name="android.permission.RESET_PASSWORD"/>
+        <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.SET_TIME"/>
+        <permission name="android.permission.SET_TIME_ZONE"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW"/>
+        <permission name="android.permission.USER_ACTIVITY"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.WRITE_SYNC_SETTINGS"/>
+    </privapp-permissions>
+</permissions>
